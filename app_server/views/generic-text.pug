@@ -1,0 +1,10 @@
+extends layout 
+
+block content
+    .row.banner
+        .col-12
+            h1= title
+            p 2019225007 김진형
+    .row
+        .col-12.col-lg-8
+        p !{(content).replace(/\n/g, '<br />')}
